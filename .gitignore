@@ -1,0 +1,10 @@
+bin/
+obj/
+*.user
+.vs/
+TestResults/
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log

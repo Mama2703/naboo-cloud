@@ -1,0 +1,10 @@
+**/bin
+**/obj
+.git
+.github
+infra
+web
+docs
+tests
+scripts
+*.md

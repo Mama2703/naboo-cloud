@@ -1,0 +1,13 @@
+{
+  "globalHeaders": {
+    "X-Content-Type-Options": "nosniff",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "X-Frame-Options": "DENY",
+    "Permissions-Policy": "camera=(), microphone=(), geolocation=()"
+  },
+  "routes": [
+    { "route": "/admin.html", "headers": { "Cache-Control": "no-store", "X-Robots-Tag": "noindex, nofollow" } },
+    { "route": "/config.js", "headers": { "Cache-Control": "no-cache" } }
+  ],
+  "responseOverrides": { "404": { "rewrite": "/index.html" } }
+}
